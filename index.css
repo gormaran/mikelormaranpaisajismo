@@ -346,6 +346,7 @@ textarea:hover {
 .testimony-carousel-wrapper {
   display: flex;
   transition: transform 0.3s ease-in-out;
+  transform: translateX(2em);
 }
 
 .testimony-carousel-wrapper img {
