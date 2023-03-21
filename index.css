@@ -150,10 +150,11 @@ p {
 }
 
 .carousel-wrapper img {
-  flex-shrink: 1;
+  flex-shrink: 2;
   width: 100%;
   max-width: 350px;
   height: 300px;
+  gap: 1%;
   border-radius: 15px;
 }
 
@@ -187,7 +188,9 @@ p {
 .CTA-hablamos button {
   border: none;
   border-radius: 300px;
-  width: 40%;
+  width: 100%;
+  min-width: 50px;
+  max-width: 150px;
   font-size: 1em;
   margin: 2%;
   padding: 1%;
