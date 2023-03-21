@@ -81,6 +81,7 @@ nav a:active {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin-bottom: 1%;
 }
 
 .dropdown-content {
@@ -150,7 +151,7 @@ p {
 
 .carousel-wrapper img {
   flex-shrink: 0;
-  max-width: 100%;
+  width: 100%;
   height: 450px;
   margin: 2%;
   border-radius: 15px;
@@ -399,6 +400,8 @@ textarea:hover {
 .testimony-next-button {
   right: 5%;
 }
+
+
 
 /*****************************************/
 /* Floating Instagram Button*/
