@@ -216,6 +216,8 @@ p {
 .servicios-contenido {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 15%;
 }
 
 .servicios-item {
@@ -240,12 +242,9 @@ p {
 
 .servicios-costes {
   display: flex;
-  position: absolute;
-  top: 42%;
   width: 100%;
+  font-size: 1em;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.859);
-  border-radius: 10px;
   text-align: center;
 }
 
