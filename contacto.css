@@ -1,0 +1,339 @@
+h1,
+h2,
+h3,
+a,
+p,
+form,
+footer {
+  font-family: sans-serif;
+}
+
+/*****************************************/
+/* BODY */
+/****************************************/
+body {
+  text-align: justify;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 100vw;
+  margin: 0 3%;
+  text-align: center;
+}
+
+/*****************************************/
+/* HEADER */
+/****************************************/
+
+.OP_logo_negro_TP {
+  width: 175px;
+  height: 175px;
+  margin: 1%;
+}
+
+/*****************************************/
+/* NAVIGATION */
+/****************************************/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1em;
+  margin-bottom: 5%;
+  width: 100%;
+  padding: 15px 0;
+  border-top: 3px solid #c3ceab;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  text-align: justify;
+  padding: 10px 20px;
+  justify-content: space-between;
+  font-weight: 400;
+  text-decoration: none;
+  align-items: center;
+}
+
+nav a:link {
+  color: black;
+}
+
+nav a:visited {
+  color: grey;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #c3ceab;
+}
+
+nav a:active {
+  color: #5d6b3f;
+}
+
+/*****************************************/
+/* NAVIGATION - dropdown bar */
+/****************************************/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  text-align: justify;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
+/*****************************************/
+/* MAIN */
+/****************************************/
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #c3ceab;
+  border-radius: 15px;
+}
+
+p {
+  line-height: 2;
+  margin: 20px 0;
+  text-align: justify;
+} /*****************************************/
+/* MAIN */
+/****************************************/
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #c3ceab;
+  border-radius: 15px;
+}
+
+p {
+  line-height: 2;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+/*****************************************/
+/* NAVIGATION - dropdown bar */
+/****************************************/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  text-align: justify;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: inline-block;
+}
+
+/*****************************************/
+/* 2- Contacto */
+/****************************************/
+#contacto h2 {
+  margin-top: 65px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 37%;
+}
+
+.embedded-things {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-top: 20px;
+}
+
+/*****************************************/
+/* Stars Rate */
+/****************************************/
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.rating-title {
+  margin-bottom: 20px;
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rate {
+  display: flex-reverse;
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.rating-textarea textarea {
+  width: 844.25px;
+  height: 100px;
+  cursor: text;
+  border: 1px solid #c3ceab;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.rating-textarea textarea:hover {
+  background: #5d6b3f1e;
+}
+
+.rating-submit button {
+  border: none;
+  border-radius: 300px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background: rgb(12, 12, 12);
+  margin-bottom: 75px;
+}
+
+.rating-submit button a {
+  background: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.rating-submit button:hover {
+  background: #9baa7b98;
+}
+
+.rating-submit button a:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*****************************************/
+/* Floating Instagram Button*/
+/****************************************/
+.floating-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  color: #000;
+  font-size: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+}
+
+.floating-button i {
+  margin-left: 2px;
+}
+
+.instagram-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+
+.footer-copywright {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
