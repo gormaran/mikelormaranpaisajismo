@@ -152,7 +152,6 @@ p {
 .carousel-wrapper img {
   flex-shrink: 1;
   width: 100%;
-  min-width: 50px;
   max-width: 150px;
   height: 300px;
   border-radius: 15px;
@@ -377,14 +376,14 @@ textarea:hover {
   text-align: center;
 }
 
-.nav-buttons {
+.testimony-nav-buttons {
   display: flex;
   justify-content: center;
   margin-top: 1%;
 }
 
-.prev-button,
-.next-button {
+.testimony-prev-button,
+.testimony-next-button {
   background-color: #fff;
   border: none;
   color: #535353;
@@ -396,8 +395,8 @@ textarea:hover {
   cursor: pointer;
 }
 
-.prev-button:hover,
-.next-button:hover {
+.testimony-prev-button:hover,
+.testimony-next-button:hover {
   color: #000;
 }
 
