@@ -152,6 +152,7 @@ p {
 .carousel-wrapper img {
   width: 100%;
   max-width: 500px;
+  margin-right: 0.5%;
   height: auto;
   border-radius: 15px;
 }
@@ -350,11 +351,12 @@ textarea:hover {
 .testimony-carousel-wrapper {
   display: flex;
   transition: transform 0.3s ease-in-out;
-  transform: translateX(2em);
+  transform: translateX(1em);
 }
 
 .testimony-carousel-wrapper img {
   flex-shrink: 0;
+  width: 100%;
   max-width: 200px;
   height: 200px;
   border-radius: 15px;
