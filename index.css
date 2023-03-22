@@ -150,9 +150,8 @@ p {
 }
 
 .carousel-wrapper img {
-  flex-shrink: 1;
   width: 100%;
-  max-width: 150px;
+  max-width: 550px;
   height: 300px;
   border-radius: 15px;
 }
@@ -253,7 +252,6 @@ p {
 
 .servicios-contenido img {
   width: 100%;
-  min-width: 250px;
   max-width: 400px;
   height: 300px;
   max-height: 55%;
@@ -387,7 +385,7 @@ textarea:hover {
   background-color: #fff;
   border: none;
   color: #535353;
-  font-size: 5.125;
+  font-size: 5.125em;
   margin: 0% 1%;
   outline: none;
   padding: 0;
