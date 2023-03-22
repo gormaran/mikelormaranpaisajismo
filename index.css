@@ -81,7 +81,7 @@ nav a:active {
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .dropdown-content {
@@ -150,7 +150,7 @@ p {
 }
 
 .carousel-wrapper img {
-  flex-shrink: 2;
+  flex-shrink: 1;
   width: 100%;
   min-width: 50px;
   max-width: 150px;
@@ -169,7 +169,7 @@ p {
   background-color: #fff;
   border: none;
   color: #535353;
-  font-size: 3.125em;
+  font-size: 5.125em;
   margin: 0% 1%;
   outline: none;
   padding: 0;
@@ -377,35 +377,28 @@ textarea:hover {
   text-align: center;
 }
 
-.testimony-nav-buttons {
+.nav-buttons {
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: absolute; /* Position the arrows absolutely */
-  top: 95%; /* Center them vertically */
-  transform: translateY(-50%);
-  width: 100%; /* Set full width for arrows container */
+  margin-top: 1%;
 }
 
-.testimony-prev-button,
-.testimony-next-button {
-  background-color: #ffffff00;
+.prev-button,
+.next-button {
+  background-color: #fff;
   border: none;
   color: #535353;
-  font-size: 100px; /* increase the font size to make them bigger */
+  font-size: 5.125;
+  margin: 0% 1%;
   outline: none;
   padding: 0;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
-  position: absolute; /* position them absolutely */
 }
 
-.testimony-prev-button {
-  left: -1%;
-}
-
-.testimony-next-button {
-  right: 5%;
+.prev-button:hover,
+.next-button:hover {
+  color: #000;
 }
 
 
