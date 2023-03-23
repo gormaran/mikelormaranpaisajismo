@@ -255,7 +255,6 @@ p {
   width: 100%;
   max-width: 400px;
   height: 300px;
-  max-height: 55%;
   border-radius: 15px;
   transition: transform 0.2s;
   position: relative;
@@ -357,7 +356,6 @@ textarea:hover {
 .testimony-carousel-wrapper img {
   flex-shrink: 0;
   width: 100%;
-  max-width: 200px;
   height: 200px;
   border-radius: 15px;
 }
