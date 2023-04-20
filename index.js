@@ -63,3 +63,20 @@ testimonyNextButton.addEventListener("click", () => {
     }px)`;
   }
 });
+
+let position = 0;
+const itemsPerPage = 3;
+const carouselWrapper = document.querySelector('.testimony-carousel-wrapper');
+const prevButton = document.querySelector('.testimony-prev-button');
+const nextButton = document.querySelector('.testimony-next-button');
+
+prevButton.addEventListener('click', () => {
+  position = Math.max(position - itemsPerPage, 0);
+  carouselWrapper.style.transform = `translateX(-${position * 34}%)`;
+});
+
+nextButton.addEventListener('click', () => {
+  const maxPosition = Math.ceil(carouselWrapper.children.length / itemsPerPage) - 1;
+  position = Math.min(position + itemsPerPage, maxPosition * itemsPerPage);
+  carouselWrapper.style.transform = `translateX(-${position * 34}%)`;
+});
