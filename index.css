@@ -347,6 +347,7 @@ textarea:hover {
 
 .testimony-carousel-wrapper {
   display: flex;
+  flex-wrap: wrap;
   transition: transform 0.3s ease-in-out;
   transform: translateX(1em);
 }
@@ -358,8 +359,9 @@ textarea:hover {
 }
 
 .testimony-item {
-  width: 100%;
+  width: 30%; /* set a fixed width for each item */
   margin-right: 4%;
+  margin-bottom: 1%; /* add some bottom margin to separate the items */
 }
 
 .testimony-text {
