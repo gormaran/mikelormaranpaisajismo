@@ -120,6 +120,7 @@ main {
 
 h1 {
   font-size: 2.5em;
+  margin-top: -2%;
 }
 
 h2 {
@@ -146,7 +147,7 @@ p {
 
 .carousel-wrapper {
   display: flex;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .carousel-wrapper img {
@@ -168,7 +169,7 @@ p {
   background-color: #fff;
   border: none;
   color: #535353;
-  font-size: 5.125em;
+  font-size: 3.125em;
   margin: 0% 1%;
   outline: none;
   padding: 0;
@@ -220,13 +221,11 @@ p {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 15%;
+  margin-bottom: 2%;
 }
 
 .servicios-item {
-  width: 75%;
   height: auto;
-  margin-right: 1%;
   position: relative;
 }
 
@@ -253,7 +252,7 @@ p {
 .servicios-contenido img {
   width: 100%;
   max-width: 400px;
-  height: auto;
+  height: 250px;
   border-radius: 15px;
   transition: transform 0.2s;
   position: relative;
@@ -360,7 +359,7 @@ textarea:hover {
 
 .testimony-item {
   width: 100%;
-  margin-right: 10%;
+  margin-right: 4%;
 }
 
 .testimony-text {
@@ -383,7 +382,7 @@ textarea:hover {
   background-color: #fff;
   border: none;
   color: #535353;
-  font-size: 5.125em;
+  font-size: 3.125em;
   margin: 0% 1%;
   outline: none;
   padding: 0;
