@@ -341,7 +341,7 @@ textarea:hover {
 }
 
 .testimony-carousel {
-  width: 100%;
+  width: 30%;
   overflow: hidden;
 }
 
@@ -353,7 +353,7 @@ textarea:hover {
 }
 
 .testimony-carousel-wrapper img {
-  width: 100%;
+  width: 30%;
   height: 40&;
   border-radius: 15px;
 }
