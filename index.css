@@ -23,6 +23,11 @@ body {
   text-align: center;
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for mobile */
+}
+
 /*****************************************/
 /* HEADER */
 /****************************************/
