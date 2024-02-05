@@ -158,12 +158,6 @@ p {
   border-radius: 15px;
 }
 
-/* Responsiveness and Slider Styles */
-.hero-slider .slide {
-    background-size: cover;
-    background-position: center;
-}
-
 .nav-buttons {
   display: flex;
   justify-content: center;
