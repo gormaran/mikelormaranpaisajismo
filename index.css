@@ -358,16 +358,17 @@ textarea:hover {
   transform: translateX(1em);
 }
 
-.testimony-carousel-wrapper img {
-  width: 30%;
-  height: 40%;
-  border-radius: 15px;
+.round-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 .testimony-item {
-  width: 30%; /* set a fixed width for each item */
-  margin-right: 4%;
-  margin-bottom: 1%; /* add some bottom margin to separate the items */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .testimony-text {
