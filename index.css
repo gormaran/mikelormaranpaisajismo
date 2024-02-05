@@ -20,6 +20,7 @@ body {
 @media (max-width: 768px) {
   .container {
       margin: 0 10px; /* Adjust margins for smaller screens */
+    text-align: center;
   }
 
   .nav, .footer, main, .gallery-carousel, .servicios-contenido, form {
