@@ -17,15 +17,21 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 3%;
-  text-align: center;
-}
-
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    /* Adjust styles for mobile */
+  .container {
+      margin: 0 10px; /* Adjust margins for smaller screens */
+  }
+
+  .nav, .footer, main, .gallery-carousel, .servicios-contenido, form {
+      padding: 0 10px; /* Add padding to these elements on smaller screens */
+  }
+
+  img, .carousel-wrapper img, .servicios-contenido img {
+      max-width: 100%; /* Ensure images don't exceed the viewport width */
+      height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Adjust font sizes, button sizes, etc., as needed for smaller screens */
 }
 
 /*****************************************/
