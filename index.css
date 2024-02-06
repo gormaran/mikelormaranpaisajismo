@@ -21,6 +21,7 @@ body {
   .container {
       margin: 0 100px; /* Adjust margins for smaller screens */
       text-align: center;
+      justify-content: center;
   }
 
   .nav, .footer, main, .gallery-carousel, .servicios-contenido, form {
