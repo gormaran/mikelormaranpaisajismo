@@ -19,8 +19,8 @@ body {
 
 @media (max-width: 768px) {
   .container {
-      margin: 0 50px; /* Adjust margins for smaller screens */
-    text-align: center;
+      margin: 0 100px; /* Adjust margins for smaller screens */
+      text-align: center;
   }
 
   .nav, .footer, main, .gallery-carousel, .servicios-contenido, form {
