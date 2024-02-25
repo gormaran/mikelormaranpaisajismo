@@ -202,7 +202,7 @@ p {
 }
 
 /*****************************************/
-/* CTA BUTTON -º1 - ¿Háblamos?/
+/* CTA BUTTON -º1 - ¿Hablamos?/
 /****************************************/
 .CTA-hablamos button {
   border: none;
@@ -365,7 +365,7 @@ textarea:hover {
 }
 
 .testimony-carousel-wrapper {
-  display: flex;
+  display: table;
   flex-wrap: wrap;
   transition: transform 0.3s ease-in-out;
   transform: translateX(1em);
